@@ -1,22 +1,31 @@
 //
 //  AppDelegate.m
-//  PlanningPoker
+//  Scrumbor
 //
 //  Created by Panudate Vasinwattana on 5/30/55 BE.
 //  Copyright (c) 2555 __MyCompanyName__. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize mainViewController = _mainViewController;
+@synthesize navigationController = _navigationController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    //self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    
+    //[self.window addSubview:self.navigationController.view];
+    self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
