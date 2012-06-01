@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C15D41D1577380A00E4E168 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D41C1577380A00E4E168 /* icon.png */; };
+		1C15D4201577384E00E4E168 /* icon-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D41F1577384E00E4E168 /* icon-s.png */; };
+		1C15D4221577546200E4E168 /* bigcard-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4211577546200E4E168 /* bigcard-2.png */; };
+		1C15D4241577710E00E4E168 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4231577710E00E4E168 /* bg.png */; };
+		1C15D4281577748000E4E168 /* bt-more-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4251577748000E4E168 /* bt-more-cards.png */; };
+		1C15D4291577748000E4E168 /* bt-opendream.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4261577748000E4E168 /* bt-opendream.png */; };
+		1C15D42A1577748000E4E168 /* bt-scrum-course.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4271577748000E4E168 /* bt-scrum-course.png */; };
+		1C15D42E1577796700E4E168 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D42C1577796700E4E168 /* MoreViewController.m */; };
+		1C15D42F1577796700E4E168 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D42D1577796700E4E168 /* MoreViewController.xib */; };
+		1C15D4311577820A00E4E168 /* h-about.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4301577820A00E4E168 /* h-about.png */; };
+		1C15D4351577839100E4E168 /* MoreCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D4331577839100E4E168 /* MoreCardViewController.m */; };
+		1C15D4361577839100E4E168 /* MoreCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4341577839100E4E168 /* MoreCardViewController.xib */; };
 		1CA3707F1576052200535A82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA3707E1576052200535A82 /* UIKit.framework */; };
 		1CA370811576052200535A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370801576052200535A82 /* Foundation.framework */; };
 		1CA370831576052200535A82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370821576052200535A82 /* CoreGraphics.framework */; };
@@ -28,7 +40,6 @@
 		1CA370E715761ADC00535A82 /* bigcard-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA370DF15761ADC00535A82 /* bigcard-5.png */; };
 		1CA370E815761ADC00535A82 /* bigcard-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA370E015761ADC00535A82 /* bigcard-8.png */; };
 		1CA370E915761ADC00535A82 /* bigcard-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA370E115761ADC00535A82 /* bigcard-13.png */; };
-		1CA370ED15761AFE00535A82 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA370EC15761AFE00535A82 /* bg.jpg */; };
 		1CA3712115761FF200535A82 /* develop-by.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712015761FF200535A82 /* develop-by.png */; };
 		1CA371231576213700535A82 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA371221576213700535A82 /* Default@2x.png */; };
 		1CA371251576214400535A82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA371241576214400535A82 /* Default.png */; };
@@ -41,6 +52,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C15D41C1577380A00E4E168 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1C15D41F1577384E00E4E168 /* icon-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-s.png"; sourceTree = "<group>"; };
+		1C15D4211577546200E4E168 /* bigcard-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-2.png"; sourceTree = "<group>"; };
+		1C15D4231577710E00E4E168 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		1C15D4251577748000E4E168 /* bt-more-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-more-cards.png"; sourceTree = "<group>"; };
+		1C15D4261577748000E4E168 /* bt-opendream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-opendream.png"; sourceTree = "<group>"; };
+		1C15D4271577748000E4E168 /* bt-scrum-course.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-scrum-course.png"; sourceTree = "<group>"; };
+		1C15D42B1577796700E4E168 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		1C15D42C1577796700E4E168 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		1C15D42D1577796700E4E168 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		1C15D4301577820A00E4E168 /* h-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h-about.png"; sourceTree = "<group>"; };
+		1C15D4321577839100E4E168 /* MoreCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreCardViewController.h; sourceTree = "<group>"; };
+		1C15D4331577839100E4E168 /* MoreCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreCardViewController.m; sourceTree = "<group>"; };
+		1C15D4341577839100E4E168 /* MoreCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreCardViewController.xib; sourceTree = "<group>"; };
 		1CA3707A1576052200535A82 /* PlanningPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA3707E1576052200535A82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CA370801576052200535A82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,7 +92,6 @@
 		1CA370DF15761ADC00535A82 /* bigcard-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-5.png"; sourceTree = "<group>"; };
 		1CA370E015761ADC00535A82 /* bigcard-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-8.png"; sourceTree = "<group>"; };
 		1CA370E115761ADC00535A82 /* bigcard-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-13.png"; sourceTree = "<group>"; };
-		1CA370EC15761AFE00535A82 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		1CA3712015761FF200535A82 /* develop-by.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "develop-by.png"; sourceTree = "<group>"; };
 		1CA371221576213700535A82 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CA371241576214400535A82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -96,6 +120,8 @@
 		1CA3706F1576052200535A82 = {
 			isa = PBXGroup;
 			children = (
+				1C15D41F1577384E00E4E168 /* icon-s.png */,
+				1C15D41C1577380A00E4E168 /* icon.png */,
 				1CA371241576214400535A82 /* Default.png */,
 				1CA371221576213700535A82 /* Default@2x.png */,
 				1CA370841576052200535A82 /* PlanningPoker */,
@@ -132,6 +158,12 @@
 				1CA370A21576061400535A82 /* MainViewController.h */,
 				1CA370A31576061400535A82 /* MainViewController.m */,
 				1CA370A41576061400535A82 /* MainViewController.xib */,
+				1C15D42B1577796700E4E168 /* MoreViewController.h */,
+				1C15D42C1577796700E4E168 /* MoreViewController.m */,
+				1C15D42D1577796700E4E168 /* MoreViewController.xib */,
+				1C15D4321577839100E4E168 /* MoreCardViewController.h */,
+				1C15D4331577839100E4E168 /* MoreCardViewController.m */,
+				1C15D4341577839100E4E168 /* MoreCardViewController.xib */,
 			);
 			path = PlanningPoker;
 			sourceTree = "<group>";
@@ -150,10 +182,14 @@
 		1CA370B41576169900535A82 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1C15D4301577820A00E4E168 /* h-about.png */,
+				1C15D4251577748000E4E168 /* bt-more-cards.png */,
+				1C15D4261577748000E4E168 /* bt-opendream.png */,
+				1C15D4271577748000E4E168 /* bt-scrum-course.png */,
+				1C15D4231577710E00E4E168 /* bg.png */,
 				1CA3713015772E6700535A82 /* more.png */,
 				1CA37126157633C800535A82 /* back-card.png */,
 				1CA3712015761FF200535A82 /* develop-by.png */,
-				1CA370EC15761AFE00535A82 /* bg.jpg */,
 				1CA370B5157616A900535A82 /* cards */,
 			);
 			name = images;
@@ -187,6 +223,7 @@
 		1CA370DB15761AAA00535A82 /* big */ = {
 			isa = PBXGroup;
 			children = (
+				1C15D4211577546200E4E168 /* bigcard-2.png */,
 				1CA3712815763F9000535A82 /* bigcard--1.png */,
 				1CA3712915763F9000535A82 /* bigcard-999.png */,
 				1CA370DC15761ADC00535A82 /* bigcard-0.png */,
@@ -264,7 +301,6 @@
 				1CA370E715761ADC00535A82 /* bigcard-5.png in Resources */,
 				1CA370E815761ADC00535A82 /* bigcard-8.png in Resources */,
 				1CA370E915761ADC00535A82 /* bigcard-13.png in Resources */,
-				1CA370ED15761AFE00535A82 /* bg.jpg in Resources */,
 				1CA3712115761FF200535A82 /* develop-by.png in Resources */,
 				1CA371231576213700535A82 /* Default@2x.png in Resources */,
 				1CA371251576214400535A82 /* Default.png in Resources */,
@@ -274,6 +310,16 @@
 				1CA3712E15763FA200535A82 /* card--1.png in Resources */,
 				1CA3712F15763FA200535A82 /* card-999.png in Resources */,
 				1CA3713115772E6700535A82 /* more.png in Resources */,
+				1C15D41D1577380A00E4E168 /* icon.png in Resources */,
+				1C15D4201577384E00E4E168 /* icon-s.png in Resources */,
+				1C15D4221577546200E4E168 /* bigcard-2.png in Resources */,
+				1C15D4241577710E00E4E168 /* bg.png in Resources */,
+				1C15D4281577748000E4E168 /* bt-more-cards.png in Resources */,
+				1C15D4291577748000E4E168 /* bt-opendream.png in Resources */,
+				1C15D42A1577748000E4E168 /* bt-scrum-course.png in Resources */,
+				1C15D42F1577796700E4E168 /* MoreViewController.xib in Resources */,
+				1C15D4311577820A00E4E168 /* h-about.png in Resources */,
+				1C15D4361577839100E4E168 /* MoreCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +333,8 @@
 				1CA3708B1576052200535A82 /* main.m in Sources */,
 				1CA3708F1576052200535A82 /* AppDelegate.m in Sources */,
 				1CA370A51576061400535A82 /* MainViewController.m in Sources */,
+				1C15D42E1577796700E4E168 /* MoreViewController.m in Sources */,
+				1C15D4351577839100E4E168 /* MoreCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +438,7 @@
 				1CA370941576052200535A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

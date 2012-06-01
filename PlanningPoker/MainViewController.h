@@ -13,14 +13,14 @@
 @interface MainViewController : UIViewController {
 }
 
-@property (strong, nonatomic) IBOutlet UIImageView *playCard;
+@property (strong, nonatomic) IBOutlet UIButton *playCard;
 @property (strong, nonatomic) IBOutlet UIView *cardContainer;
 @property int currentCard;
 @property BOOL cardIsOpen;
 
-- (IBAction)selectCard:(UIGestureRecognizer *)card;
-- (IBAction)showCard:(UIGestureRecognizer *)card;
-
+- (IBAction)selectCard:(UIButton *)card;
+- (IBAction)showCard:(UIButton *)card;
+- (IBAction)gotoMorePage:(UIButton *)more;
 
 
 @end

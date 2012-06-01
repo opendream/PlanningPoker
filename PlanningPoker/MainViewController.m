@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "MoreViewController.h"
 
 @interface MainViewController ()
 
@@ -48,19 +49,19 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)selectCard:(UIGestureRecognizer *)card {
+- (IBAction)selectCard:(UIButton *)card {
     self.playCard.hidden = NO;
     self.cardContainer.hidden = YES;
-    self.currentCard = card.view.tag;
+    self.currentCard = card.tag;
     self.cardIsOpen = NO;
 
 }
 
-- (IBAction)showCard:(UIGestureRecognizer *)card {
+- (IBAction)showCard:(UIButton *)card {
     if (!self.cardIsOpen) {
         NSString *cardName = [NSString stringWithFormat:@"bigcard-%d.png", self.currentCard];
         UIImage *cardImage = [UIImage imageNamed:cardName];
-        [self.playCard setImage:cardImage];
+        [self.playCard setImage:cardImage forState:UIControlStateNormal];
         self.cardIsOpen = YES;
     }
     else {
@@ -69,8 +70,14 @@
         self.cardContainer.hidden = NO;
         self.playCard.hidden = YES;
         UIImage *cardImage = [UIImage imageNamed:@"back-card.png"];
-        [self.playCard setImage:cardImage];
+        [self.playCard setImage:cardImage forState:UIControlStateNormal];
     }
 }
+
+- (IBAction)gotoMorePage:(UIButton *)more {
+    MoreViewController *moreViewController = [[MoreViewController alloc] initWithNibName:@"MoreViewController" bundle:nil];
+    [self.navigationController pushViewController:moreViewController animated:NO];
+}
+
 
 @end

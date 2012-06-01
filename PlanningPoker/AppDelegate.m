@@ -22,10 +22,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
-    //self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    self.navigationController.navigationBarHidden = YES;
     
     //[self.window addSubview:self.navigationController.view];
-    self.window.rootViewController = self.mainViewController;
+    //self.window.rootViewController = self.mainViewController;
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
