@@ -18,7 +18,11 @@
 @synthesize playCard = _playCard;
 @synthesize currentCard = _currentCard;
 @synthesize cardContainer = _cardContainer;
+@synthesize backCardContainer = _backCardContainer;
 @synthesize cardIsOpen = _cardIsOpen;
+@synthesize currentPoint = _currentPoint;
+@synthesize currentBigPoint = _currentBigPoint;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,6 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.currentBigPoint = self.playCard.center;
     //UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(selectCard:)];
     
     // Do any additional setup after loading the view from its nib.
@@ -50,28 +55,41 @@
 }
 
 - (IBAction)selectCard:(UIButton *)card {
-    self.playCard.hidden = NO;
-    self.cardContainer.hidden = YES;
+
     self.currentCard = card.tag;
+    
+    NSString *cardName = [NSString stringWithFormat:@"bigcard-%d.png", self.currentCard];
+    UIImage *cardImage = [UIImage imageNamed:cardName];
+    [self.playCard setImage:cardImage forState:UIControlStateNormal];
+    
+    
+    self.currentPoint = card.center;
+    
+    [self.playCard setCenter:card.center];
+    self.playCard.transform = CGAffineTransformMakeScale(0.28, 0.28);
+    
+    
+    self.playCard.hidden = NO;
+
+    [UIButton animateWithDuration:0.3 animations:^{
+        self.playCard.transform = CGAffineTransformMakeScale(1, 1);
+        [self.playCard setCenter:self.currentBigPoint];
+        [self.view bringSubviewToFront:self.backCardContainer];
+    }];
+        
     self.cardIsOpen = NO;
 
 }
 
 - (IBAction)showCard:(UIButton *)card {
-    if (!self.cardIsOpen) {
-        NSString *cardName = [NSString stringWithFormat:@"bigcard-%d.png", self.currentCard];
-        UIImage *cardImage = [UIImage imageNamed:cardName];
-        [self.playCard setImage:cardImage forState:UIControlStateNormal];
-        self.cardIsOpen = YES;
-    }
-    else {
-        // Return to select card
-        NSLog(@"Return to select card");
-        self.cardContainer.hidden = NO;
-        self.playCard.hidden = YES;
-        UIImage *cardImage = [UIImage imageNamed:@"back-card.png"];
-        [self.playCard setImage:cardImage forState:UIControlStateNormal];
-    }
+    
+    [UIButton animateWithDuration:0.3 animations:^{
+        self.playCard.transform = CGAffineTransformMakeScale(0.28, 0.28);
+        [self.playCard setCenter:self.currentPoint];
+    } completion:^(BOOL finished) {
+        [self.view bringSubviewToFront:self.cardContainer];
+    }];
+
 }
 
 - (IBAction)gotoMorePage:(UIButton *)more {

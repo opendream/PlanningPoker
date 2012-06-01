@@ -15,6 +15,9 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *playCard;
 @property (strong, nonatomic) IBOutlet UIView *cardContainer;
+@property (strong, nonatomic) IBOutlet UIView *backCardContainer;
+@property CGPoint currentPoint;
+@property CGPoint currentBigPoint;
 @property int currentCard;
 @property BOOL cardIsOpen;
 

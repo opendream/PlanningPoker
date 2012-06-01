@@ -19,6 +19,7 @@
 		1C15D4311577820A00E4E168 /* h-about.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4301577820A00E4E168 /* h-about.png */; };
 		1C15D4351577839100E4E168 /* MoreCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D4331577839100E4E168 /* MoreCardViewController.m */; };
 		1C15D4361577839100E4E168 /* MoreCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4341577839100E4E168 /* MoreCardViewController.xib */; };
+		1C15D4381578C30500E4E168 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4371578C30500E4E168 /* back.png */; };
 		1CA3707F1576052200535A82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA3707E1576052200535A82 /* UIKit.framework */; };
 		1CA370811576052200535A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370801576052200535A82 /* Foundation.framework */; };
 		1CA370831576052200535A82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370821576052200535A82 /* CoreGraphics.framework */; };
@@ -66,6 +67,7 @@
 		1C15D4321577839100E4E168 /* MoreCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreCardViewController.h; sourceTree = "<group>"; };
 		1C15D4331577839100E4E168 /* MoreCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreCardViewController.m; sourceTree = "<group>"; };
 		1C15D4341577839100E4E168 /* MoreCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreCardViewController.xib; sourceTree = "<group>"; };
+		1C15D4371578C30500E4E168 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		1CA3707A1576052200535A82 /* PlanningPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA3707E1576052200535A82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CA370801576052200535A82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +184,7 @@
 		1CA370B41576169900535A82 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1C15D4371578C30500E4E168 /* back.png */,
 				1C15D4301577820A00E4E168 /* h-about.png */,
 				1C15D4251577748000E4E168 /* bt-more-cards.png */,
 				1C15D4261577748000E4E168 /* bt-opendream.png */,
@@ -320,6 +323,7 @@
 				1C15D42F1577796700E4E168 /* MoreViewController.xib in Resources */,
 				1C15D4311577820A00E4E168 /* h-about.png in Resources */,
 				1C15D4361577839100E4E168 /* MoreCardViewController.xib in Resources */,
+				1C15D4381578C30500E4E168 /* back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,8 +23,8 @@
         
         // Request json of card collections
         
-        NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.apple.com/"] 
-                cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
+        //NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.apple.com/"] 
+        //        cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
         
         // Render card collections
         NSInteger viewcount= 2; 
