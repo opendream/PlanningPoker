@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class Reachability;
+
 @interface MoreViewController : UIViewController
 
 - (IBAction)backtoPlayPage:(UIButton *)back;
 - (IBAction)gotoMoreCardPage:(UIButton *)moreCard;
+- (IBAction)gotoAboutOpendreamPage:(UIButton *)aboutOpendream;
+- (IBAction)gotoAboutScrumPage:(UIButton *)aboutScrum;
+
 
 @end

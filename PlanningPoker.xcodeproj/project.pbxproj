@@ -20,6 +20,12 @@
 		1C15D4351577839100E4E168 /* MoreCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D4331577839100E4E168 /* MoreCardViewController.m */; };
 		1C15D4361577839100E4E168 /* MoreCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4341577839100E4E168 /* MoreCardViewController.xib */; };
 		1C15D4381578C30500E4E168 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D4371578C30500E4E168 /* back.png */; };
+		1C15D43C1578F5FE00E4E168 /* AboutOpendreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D43A1578F5FE00E4E168 /* AboutOpendreamViewController.m */; };
+		1C15D43D1578F5FE00E4E168 /* AboutOpendreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D43B1578F5FE00E4E168 /* AboutOpendreamViewController.xib */; };
+		1C15D441157DB77F00E4E168 /* AboutScrumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D43F157DB77F00E4E168 /* AboutScrumViewController.m */; };
+		1C15D442157DB77F00E4E168 /* AboutScrumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D440157DB77F00E4E168 /* AboutScrumViewController.xib */; };
+		1C15D445157DBD7900E4E168 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D444157DBD7900E4E168 /* Reachability.m */; };
+		1C15D447157DC6FA00E4E168 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D446157DC6FA00E4E168 /* SystemConfiguration.framework */; };
 		1CA3707F1576052200535A82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA3707E1576052200535A82 /* UIKit.framework */; };
 		1CA370811576052200535A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370801576052200535A82 /* Foundation.framework */; };
 		1CA370831576052200535A82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370821576052200535A82 /* CoreGraphics.framework */; };
@@ -68,6 +74,15 @@
 		1C15D4331577839100E4E168 /* MoreCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreCardViewController.m; sourceTree = "<group>"; };
 		1C15D4341577839100E4E168 /* MoreCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreCardViewController.xib; sourceTree = "<group>"; };
 		1C15D4371578C30500E4E168 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1C15D4391578F5FE00E4E168 /* AboutOpendreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutOpendreamViewController.h; sourceTree = "<group>"; };
+		1C15D43A1578F5FE00E4E168 /* AboutOpendreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutOpendreamViewController.m; sourceTree = "<group>"; };
+		1C15D43B1578F5FE00E4E168 /* AboutOpendreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutOpendreamViewController.xib; sourceTree = "<group>"; };
+		1C15D43E157DB77E00E4E168 /* AboutScrumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutScrumViewController.h; sourceTree = "<group>"; };
+		1C15D43F157DB77F00E4E168 /* AboutScrumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutScrumViewController.m; sourceTree = "<group>"; };
+		1C15D440157DB77F00E4E168 /* AboutScrumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutScrumViewController.xib; sourceTree = "<group>"; };
+		1C15D443157DBD7800E4E168 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1C15D444157DBD7900E4E168 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1C15D446157DC6FA00E4E168 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1CA3707A1576052200535A82 /* PlanningPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA3707E1576052200535A82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CA370801576052200535A82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C15D447157DC6FA00E4E168 /* SystemConfiguration.framework in Frameworks */,
 				1CA3707F1576052200535A82 /* UIKit.framework in Frameworks */,
 				1CA370811576052200535A82 /* Foundation.framework in Frameworks */,
 				1CA370831576052200535A82 /* CoreGraphics.framework in Frameworks */,
@@ -143,6 +159,7 @@
 		1CA3707D1576052200535A82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C15D446157DC6FA00E4E168 /* SystemConfiguration.framework */,
 				1CA3707E1576052200535A82 /* UIKit.framework */,
 				1CA370801576052200535A82 /* Foundation.framework */,
 				1CA370821576052200535A82 /* CoreGraphics.framework */,
@@ -166,6 +183,14 @@
 				1C15D4321577839100E4E168 /* MoreCardViewController.h */,
 				1C15D4331577839100E4E168 /* MoreCardViewController.m */,
 				1C15D4341577839100E4E168 /* MoreCardViewController.xib */,
+				1C15D4391578F5FE00E4E168 /* AboutOpendreamViewController.h */,
+				1C15D43A1578F5FE00E4E168 /* AboutOpendreamViewController.m */,
+				1C15D43B1578F5FE00E4E168 /* AboutOpendreamViewController.xib */,
+				1C15D43E157DB77E00E4E168 /* AboutScrumViewController.h */,
+				1C15D43F157DB77F00E4E168 /* AboutScrumViewController.m */,
+				1C15D440157DB77F00E4E168 /* AboutScrumViewController.xib */,
+				1C15D443157DBD7800E4E168 /* Reachability.h */,
+				1C15D444157DBD7900E4E168 /* Reachability.m */,
 			);
 			path = PlanningPoker;
 			sourceTree = "<group>";
@@ -324,6 +349,8 @@
 				1C15D4311577820A00E4E168 /* h-about.png in Resources */,
 				1C15D4361577839100E4E168 /* MoreCardViewController.xib in Resources */,
 				1C15D4381578C30500E4E168 /* back.png in Resources */,
+				1C15D43D1578F5FE00E4E168 /* AboutOpendreamViewController.xib in Resources */,
+				1C15D442157DB77F00E4E168 /* AboutScrumViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +366,9 @@
 				1CA370A51576061400535A82 /* MainViewController.m in Sources */,
 				1C15D42E1577796700E4E168 /* MoreViewController.m in Sources */,
 				1C15D4351577839100E4E168 /* MoreCardViewController.m in Sources */,
+				1C15D43C1578F5FE00E4E168 /* AboutOpendreamViewController.m in Sources */,
+				1C15D441157DB77F00E4E168 /* AboutScrumViewController.m in Sources */,
+				1C15D445157DBD7900E4E168 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

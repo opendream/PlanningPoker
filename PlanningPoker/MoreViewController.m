@@ -6,8 +6,13 @@
 //  Copyright (c) 2555 __MyCompanyName__. All rights reserved.
 //
 
+#import "Reachability.h"
+
 #import "MoreViewController.h"
 #import "MoreCardViewController.h"
+#import "AboutOpendreamViewController.h"
+#import "AboutScrumViewController.h"
+
 
 @interface MoreViewController ()
 
@@ -27,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"About";
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -49,6 +55,45 @@
 - (IBAction)gotoMoreCardPage:(UIButton *)moreCard {
     MoreCardViewController *moreCardViewController = [[MoreCardViewController alloc] initWithNibName:@"MoreCardViewController" bundle:nil];
     [self.navigationController pushViewController:moreCardViewController animated:YES];
+}
+
+- (IBAction)gotoAboutOpendreamPage:(UIButton *)aboutOpendream {
+    
+    Reachability* internetReachable = [Reachability reachabilityForInternetConnection];
+    [internetReachable startNotifier];
+
+    NetworkStatus internetStatus = [internetReachable currentReachabilityStatus];
+    
+    if (internetStatus == NotReachable) {
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"No Internet connection" message:@"Application required internet connection.." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+        
+        return;
+    }
+    
+    AboutOpendreamViewController *aboutOpendreamViewController = [[AboutOpendreamViewController alloc] initWithNibName:@"AboutOpendreamViewController" bundle:nil];
+    [self.navigationController pushViewController:aboutOpendreamViewController animated:YES];
+
+}
+
+- (IBAction)gotoAboutScrumPage:(UIButton *)aboutScrum {
+    
+    
+    Reachability* internetReachable = [Reachability reachabilityForInternetConnection];
+    [internetReachable startNotifier];
+    
+    NetworkStatus internetStatus = [internetReachable currentReachabilityStatus];
+    
+    if (internetStatus == NotReachable) {
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"No Internet connection" message:@"Application required internet connection.." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+        
+        return;
+    }
+
+    AboutScrumViewController *aboutScrumViewController = [[AboutScrumViewController alloc] initWithNibName:@"AboutScrumViewController" bundle:nil];
+    [self.navigationController pushViewController:aboutScrumViewController animated:YES];
+    
 }
 
 @end
