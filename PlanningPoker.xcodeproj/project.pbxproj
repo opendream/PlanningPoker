@@ -26,6 +26,10 @@
 		1C15D442157DB77F00E4E168 /* AboutScrumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C15D440157DB77F00E4E168 /* AboutScrumViewController.xib */; };
 		1C15D445157DBD7900E4E168 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C15D444157DBD7900E4E168 /* Reachability.m */; };
 		1C15D447157DC6FA00E4E168 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D446157DC6FA00E4E168 /* SystemConfiguration.framework */; };
+		1C3CE408157F92DA006E9A14 /* bigcard--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3CE407157F92DA006E9A14 /* bigcard--1.png */; };
+		1C3CE40A157F9310006E9A14 /* bigcard-999.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3CE409157F9310006E9A14 /* bigcard-999.png */; };
+		1C3CE40D157F931B006E9A14 /* card--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3CE40B157F931B006E9A14 /* card--1.png */; };
+		1C3CE40E157F931B006E9A14 /* card-999.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3CE40C157F931B006E9A14 /* card-999.png */; };
 		1CA3707F1576052200535A82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA3707E1576052200535A82 /* UIKit.framework */; };
 		1CA370811576052200535A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370801576052200535A82 /* Foundation.framework */; };
 		1CA370831576052200535A82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA370821576052200535A82 /* CoreGraphics.framework */; };
@@ -50,10 +54,6 @@
 		1CA3712115761FF200535A82 /* develop-by.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712015761FF200535A82 /* develop-by.png */; };
 		1CA371231576213700535A82 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA371221576213700535A82 /* Default@2x.png */; };
 		1CA371251576214400535A82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA371241576214400535A82 /* Default.png */; };
-		1CA3712A15763F9000535A82 /* bigcard--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712815763F9000535A82 /* bigcard--1.png */; };
-		1CA3712B15763F9000535A82 /* bigcard-999.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712915763F9000535A82 /* bigcard-999.png */; };
-		1CA3712E15763FA200535A82 /* card--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712C15763FA200535A82 /* card--1.png */; };
-		1CA3712F15763FA200535A82 /* card-999.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712D15763FA200535A82 /* card-999.png */; };
 		1CA3713115772E6700535A82 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3713015772E6700535A82 /* more.png */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +82,10 @@
 		1C15D443157DBD7800E4E168 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		1C15D444157DBD7900E4E168 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		1C15D446157DC6FA00E4E168 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1C3CE407157F92DA006E9A14 /* bigcard--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard--1.png"; sourceTree = "<group>"; };
+		1C3CE409157F9310006E9A14 /* bigcard-999.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-999.png"; sourceTree = "<group>"; };
+		1C3CE40B157F931B006E9A14 /* card--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card--1.png"; sourceTree = "<group>"; };
+		1C3CE40C157F931B006E9A14 /* card-999.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-999.png"; sourceTree = "<group>"; };
 		1CA3707A1576052200535A82 /* PlanningPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA3707E1576052200535A82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CA370801576052200535A82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,10 +115,6 @@
 		1CA3712015761FF200535A82 /* develop-by.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "develop-by.png"; sourceTree = "<group>"; };
 		1CA371221576213700535A82 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CA371241576214400535A82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1CA3712815763F9000535A82 /* bigcard--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bigcard--1.png"; path = "../../../Desktop/images/bigcard--1.png"; sourceTree = "<group>"; };
-		1CA3712915763F9000535A82 /* bigcard-999.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bigcard-999.png"; path = "../../../Desktop/images/bigcard-999.png"; sourceTree = "<group>"; };
-		1CA3712C15763FA200535A82 /* card--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card--1.png"; path = "../../../Desktop/images/card--1.png"; sourceTree = "<group>"; };
-		1CA3712D15763FA200535A82 /* card-999.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card-999.png"; path = "../../../Desktop/images/card-999.png"; sourceTree = "<group>"; };
 		1CA3713015772E6700535A82 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -232,13 +232,13 @@
 		1CA370C81576198D00535A82 /* small */ = {
 			isa = PBXGroup;
 			children = (
-				1CA3712C15763FA200535A82 /* card--1.png */,
-				1CA3712D15763FA200535A82 /* card-999.png */,
 				1CA370C9157619F500535A82 /* card-0.png */,
 				1CA370CA157619F500535A82 /* card-1.png */,
 				1CA370CB157619F500535A82 /* card-2.png */,
 				1CA370CC157619F500535A82 /* card-3.png */,
 				1CA370CD157619F500535A82 /* card-5.png */,
+				1C3CE40B157F931B006E9A14 /* card--1.png */,
+				1C3CE40C157F931B006E9A14 /* card-999.png */,
 				1CA370CE157619F500535A82 /* card-8.png */,
 				1CA370CF157619F500535A82 /* card-13.png */,
 			);
@@ -249,10 +249,10 @@
 			isa = PBXGroup;
 			children = (
 				1C15D4211577546200E4E168 /* bigcard-2.png */,
-				1CA3712815763F9000535A82 /* bigcard--1.png */,
-				1CA3712915763F9000535A82 /* bigcard-999.png */,
 				1CA370DC15761ADC00535A82 /* bigcard-0.png */,
+				1C3CE407157F92DA006E9A14 /* bigcard--1.png */,
 				1CA370DD15761ADC00535A82 /* bigcard-1.png */,
+				1C3CE409157F9310006E9A14 /* bigcard-999.png */,
 				1CA370DE15761ADC00535A82 /* bigcard-3.png */,
 				1CA370DF15761ADC00535A82 /* bigcard-5.png */,
 				1CA370E015761ADC00535A82 /* bigcard-8.png */,
@@ -329,10 +329,6 @@
 				1CA3712115761FF200535A82 /* develop-by.png in Resources */,
 				1CA371231576213700535A82 /* Default@2x.png in Resources */,
 				1CA371251576214400535A82 /* Default.png in Resources */,
-				1CA3712A15763F9000535A82 /* bigcard--1.png in Resources */,
-				1CA3712B15763F9000535A82 /* bigcard-999.png in Resources */,
-				1CA3712E15763FA200535A82 /* card--1.png in Resources */,
-				1CA3712F15763FA200535A82 /* card-999.png in Resources */,
 				1CA3713115772E6700535A82 /* more.png in Resources */,
 				1C15D41D1577380A00E4E168 /* icon.png in Resources */,
 				1C15D4201577384E00E4E168 /* icon-s.png in Resources */,
@@ -347,6 +343,10 @@
 				1C15D4381578C30500E4E168 /* back.png in Resources */,
 				1C15D43D1578F5FE00E4E168 /* AboutOpendreamViewController.xib in Resources */,
 				1C15D442157DB77F00E4E168 /* AboutScrumViewController.xib in Resources */,
+				1C3CE408157F92DA006E9A14 /* bigcard--1.png in Resources */,
+				1C3CE40A157F9310006E9A14 /* bigcard-999.png in Resources */,
+				1C3CE40D157F931B006E9A14 /* card--1.png in Resources */,
+				1C3CE40E157F931B006E9A14 /* card-999.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
