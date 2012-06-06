@@ -50,7 +50,6 @@
 		1CA3712115761FF200535A82 /* develop-by.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712015761FF200535A82 /* develop-by.png */; };
 		1CA371231576213700535A82 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA371221576213700535A82 /* Default@2x.png */; };
 		1CA371251576214400535A82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA371241576214400535A82 /* Default.png */; };
-		1CA37127157633C800535A82 /* back-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA37126157633C800535A82 /* back-card.png */; };
 		1CA3712A15763F9000535A82 /* bigcard--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712815763F9000535A82 /* bigcard--1.png */; };
 		1CA3712B15763F9000535A82 /* bigcard-999.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712915763F9000535A82 /* bigcard-999.png */; };
 		1CA3712E15763FA200535A82 /* card--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3712C15763FA200535A82 /* card--1.png */; };
@@ -112,7 +111,6 @@
 		1CA3712015761FF200535A82 /* develop-by.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "develop-by.png"; sourceTree = "<group>"; };
 		1CA371221576213700535A82 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CA371241576214400535A82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1CA37126157633C800535A82 /* back-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-card.png"; path = "../../../Desktop/images/back-card.png"; sourceTree = "<group>"; };
 		1CA3712815763F9000535A82 /* bigcard--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bigcard--1.png"; path = "../../../Desktop/images/bigcard--1.png"; sourceTree = "<group>"; };
 		1CA3712915763F9000535A82 /* bigcard-999.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bigcard-999.png"; path = "../../../Desktop/images/bigcard-999.png"; sourceTree = "<group>"; };
 		1CA3712C15763FA200535A82 /* card--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card--1.png"; path = "../../../Desktop/images/card--1.png"; sourceTree = "<group>"; };
@@ -216,7 +214,6 @@
 				1C15D4271577748000E4E168 /* bt-scrum-course.png */,
 				1C15D4231577710E00E4E168 /* bg.png */,
 				1CA3713015772E6700535A82 /* more.png */,
-				1CA37126157633C800535A82 /* back-card.png */,
 				1CA3712015761FF200535A82 /* develop-by.png */,
 				1CA370B5157616A900535A82 /* cards */,
 			);
@@ -332,7 +329,6 @@
 				1CA3712115761FF200535A82 /* develop-by.png in Resources */,
 				1CA371231576213700535A82 /* Default@2x.png in Resources */,
 				1CA371251576214400535A82 /* Default.png in Resources */,
-				1CA37127157633C800535A82 /* back-card.png in Resources */,
 				1CA3712A15763F9000535A82 /* bigcard--1.png in Resources */,
 				1CA3712B15763F9000535A82 /* bigcard-999.png in Resources */,
 				1CA3712E15763FA200535A82 /* card--1.png in Resources */,
